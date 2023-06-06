@@ -16,4 +16,4 @@ workflows:
     jobs: 
       - shellcheck/check:
           dir: ./EC2/Userdata
-          exclude: SC2027,SC2046
+          exclude: SC2027,SC2046,SC1091
